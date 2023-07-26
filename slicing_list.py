@@ -78,7 +78,15 @@ all = input("Enter your first name, last name, Mum's maiden name and the city yo
 
 """ Fungsi strip() digunakan untuk menghapus 
 spasi tambahan di awal dan akhir setiap data 
-jika ada. """
+jika ada. 
+
+Sedangkang fungsi all[] akan memisahkan 
+kata berdasarkan fungsi split di variabel 
+all berdasarkan fungsi split() yaitu spasi
+sehingga akan dipisah menjadi beberapa variabel
+yaitu all(index) dan fungsi strip()
+akan menghapus spasi pada setiap karakter
+di awal dan akhir kata jika ada """
 
 first = all[0].strip()
 last = all[1].strip()
