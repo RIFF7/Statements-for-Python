@@ -182,3 +182,32 @@ menampilkan gambar hangman yang sesuai.
 Dengan cara ini, program menciptakan permainan sederhana di mana pengguna 
 dapat menebak kata acak dari daftar kata dengan 
 memilih huruf-huruf yang tepat. """
+
+#Penjelasan untuk Variabel allLetters
+"""Variabel allLetters digunakan untuk menentukan apakah seluruh huruf 
+dalam kata yang harus ditebak telah terpilih oleh pengguna atau belum. 
+Variabel ini berperan dalam menampilkan bagian lirik yang telah terisi 
+huruf-huruf yang benar dan bagian lirik yang masih berupa tanda garis bawah.
+
+allLetters = True: Pada awal setiap iterasi, 
+nilai allLetters diatur menjadi True, yang berarti 
+diasumsikan bahwa semua huruf dalam kata telah terpilih 
+dengan benar oleh pengguna.
+
+Ketika program memeriksa setiap huruf dalam kata 
+yang harus ditebak, jika ada huruf yang belum terpilih 
+oleh pengguna (tidak ada dalam letterPick), maka nilai allLetters 
+diubah menjadi False, yang menandakan bahwa setidaknya 
+ada satu huruf yang belum terpilih dengan benar.
+
+Jika setelah memeriksa semua huruf dalam kata, 
+nilai allLetters tetap True, maka itu berarti bahwa seluruh 
+huruf telah terpilih dengan benar dan pengguna telah 
+berhasil menebak seluruh kata.
+
+Dengan mengetahui nilai allLetters, 
+program dapat menampilkan lirik yang telah terisi huruf-huruf 
+yang benar (dengan huruf-huruf yang telah terpilih) 
+dan bagian lirik yang belum terisi (dengan tanda garis bawah _ untuk 
+huruf-huruf yang belum terpilih).
+"""
