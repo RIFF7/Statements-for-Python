@@ -60,7 +60,7 @@ word = random.choice(listWord)
 while True:
     #time.sleep(1)
     #os.system("cls")
-    letter = input("Chooxe the letter: ".lower())
+    letter = input("Chooxe the letter: ").lower()
     
     if letter in letterPick:
         print("You've tried that before")
