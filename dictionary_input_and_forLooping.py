@@ -12,7 +12,7 @@ for name, value in myCard.items():
 website = {"name": None, "url": None, 
            "desc": None, "star": None}
 
-for name in website:
+for name in website.keys():
     website[name] = input(f"{name}: ")
 
 print()
