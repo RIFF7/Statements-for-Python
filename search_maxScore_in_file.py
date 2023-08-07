@@ -60,7 +60,26 @@ for row in score:
         # besar daripada max_score, maka kita 
         # akan melakukan hal-hal berikut:
         if int(data[1]) > max_score:
+            # Baris code dibawah ini akan memperbarui 
+            # nilai max_score dengan nilai 
+            # skor yang terdapat di data. 
+            # Karena nilai di data adalah string, 
+            # maka kita menggunakan int() 
+            # untuk mengonversinya menjadi tipe 
+            # data integer sebelum menyimpannya 
+            # di max_score. Dengan cara ini, 
+            # nilai max_score akan selalu berisi 
+            # nilai tertinggi yang ditemukan 
+            # selama proses iterasi.
             max_score = int(data[1])
+            # Baris ini akan memperbarui nilai 
+            # name dengan nama yang terdapat di 
+            # data. Nama terletak pada elemen 
+            # pertama dalam list data (indeks 0). 
+            # Jadi, jika nilai skor di data lebih 
+            # besar dari max_score, kita akan 
+            # menyimpan nama yang sesuai dengan 
+            # nilai tertinggi tersebut di name.
             name = data[0]
             
 print("Analyzing high scores......")
