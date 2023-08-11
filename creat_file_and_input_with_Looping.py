@@ -28,9 +28,17 @@ while True:
         time.sleep(1)
         os.system("cls") """
         
-# Versi kedua menggunakan subrutin
+# Versi kedua menggunakan subrutin agar lebih simple
+
+# Secara output baik cara pertama dan kedua semuanya
+# memiliki fungsi yang sama yaitu menginput sebuah
+# data pada file yang kita buat
 import os, time, random
 
+# Subrutin dibawah digunakan untuk membuat file dan 
+# menambahkan data pada file yang telah dibuat dengan
+# fungsi "w" (write) untuk membuat file dan "a+" untuk
+# menambah data dalam file dan membaca file
 def add():
     os.system("cls")
     idea = input("Idea > ")
@@ -39,7 +47,11 @@ def add():
     f.close()
     time.sleep(1)
     os.system("cls")
-    
+
+# Subrutin dibawah ini digunakan untuk membaca
+# data dengan fungsi "r" (read) dan menampilkannya
+# secara acak menggunakan funsgi 
+# random.choice(variabel)
 def show():
     os.system("cls")
     f = open("my.ideas", "r")
@@ -50,10 +62,18 @@ def show():
     print(idea)
     time.sleep(2)
     os.system("cls")
-    
+
+# Perulangan dibawah akan meminta user untuk
+# memasukan pilihan antara tambah data atau 
+# tampilkan data secara acak    
 while True:
     question = input("1. Add an ideas\n2. Load up a random ideas\n> ")
+    # Jika user memilih option 1, maka perintah
+    # dari subrutin add() akan dijalankan
     if question == "1":
         add()
+    # Namun jika user memasukan string selain 1,
+    # maka perintah subrutin dari show() akan
+    # dijalankan
     else:
         show()
