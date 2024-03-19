@@ -41,3 +41,38 @@
 (5 - 1) * ((7 + 1) / (3 - 1))
 
 #--------------------------------------------------------------------------------------------------------------
+
+# Pengenalan Integer, Floating-Point dan String Data Types
+
+# String Concatenation and Replication
+# Penggabungan (Concatenation)
+'Alice' + 'Bob'
+
+'''
+    Penggabungan dibawah ini akan menghasilkan error
+    karena string tidak bisa digabungkan dengan tipe data
+    integer
+'''
+'Alice' + 42
+
+'''
+    Code dibawah ini akan menampilkan string
+    sebanyak nilai yang dikalikan dengannya
+'''
+'Alice' * 5 # Tanpa koma dan spasi
+'Alice,' * 5 # Dengan Koma
+'Alice ' * 5 # Dengan Spasi
+
+'''
+    Code dibawah akan menghasilkan error
+    karena value dari string tidak bisa 
+    dikalikan dengan string juga
+'''
+'Alice' * 'Bob'
+
+'''
+    Code dibawah akan menghasilkan error juga
+    karena value string tidak bisa dikalikan dengan
+    value dari nilai float
+'''
+'Alice' * 5.0
