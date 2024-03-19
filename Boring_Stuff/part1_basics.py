@@ -76,3 +76,31 @@
     value dari nilai float
 '''
 'Alice' * 5.0
+
+# Menyimpan Nilai dalam Variabel (Storing Values in Variables)
+# Assigment Statements
+spam = 40 # variable dengan satu value
+spam # Ketika memanggil variable value akan muncul pada output
+
+eggs = 2 # variable dengan satu value
+spam + eggs # Melakukan penjumlahan dengan variable yang sudah ada isi value
+
+spam + eggs + spam
+
+spam = spam + 2
+spam
+
+'''
+    Code dibawah akan mengisi variable spam menjadi 'Hello'
+    pada penggantian pertama value dari nilai sebelumnya dimana
+    adalah sebuah angka
+'''
+spam = 'Hello'
+spam
+
+'''
+    Code dibawah akan melakukan pergantian kembali pada vaiable spam
+    dimana value akan berubah menjadi tulisan 'GoodBye'
+'''
+spam = 'GoodBye'
+spam
