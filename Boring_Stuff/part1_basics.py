@@ -124,3 +124,16 @@ print(len(myName))
 print('What is your age?')
 myAge = input()
 print('You will be ' + str(int(myAge) + 1) + ' in a year.')
+
+#--------------------------------------------------------------------------------------------------------------
+
+# Comment
+
+'''
+    Penggunaan Comment dapat digunakan dengan tanda Kres/Sharp (#)
+    bisa juga digunakan dengan petik sebanyaka 6 kali (''' ''')
+'''
+
+#--------------------------------------------------------------------------------------------------------------
+
+# 
