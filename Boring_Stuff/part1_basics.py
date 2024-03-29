@@ -136,4 +136,18 @@ print('You will be ' + str(int(myAge) + 1) + ' in a year.')
 
 #--------------------------------------------------------------------------------------------------------------
 
-# 
+# print()
+
+'''
+    Penggunaan fungsi print() pada python adalah untuk mencetak output 
+    yang akan dikeluarkan nantinya
+    
+    fungsi print() dapat dipadukan juga dengan fungsi 'f-string', example:
+    - print(f'Some_Think')
+'''
+
+print('Hello World!')
+print('What is your name?') #ask for their name
+
+#--------------------------------------------------------------------------------------------------------------
+
