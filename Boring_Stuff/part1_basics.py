@@ -151,3 +151,21 @@ print('What is your name?') #ask for their name
 
 #--------------------------------------------------------------------------------------------------------------
 
+# Fungsi Input & Tampilan Output dari hasil Input
+
+'''
+    Untuk penggunaan fungsi input() disini adalah untuk memasukkan
+    variable dari argument yang dibuat
+'''
+
+# Mode 1
+print('what is your name?')
+myName = input()
+print('My Name is ' + myName)
+
+# Mode 2
+myName = input('What is your name? ')
+print('My Name is ' + myName)
+
+#--------------------------------------------------------------------------------------------------------------
+
