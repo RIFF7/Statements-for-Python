@@ -155,7 +155,9 @@ print('What is your name?') #ask for their name
 
 '''
     Untuk penggunaan fungsi input() disini adalah untuk memasukkan
-    variable dari argument yang dibuat
+    variable dari argument yang dibuat dimana hasilnya akan ditampilkan
+    pada perintah print() setelahnya, hasil output ini diambil dari hasil
+    input sebelumnya, example dibawah ini:
 '''
 
 # Mode 1
