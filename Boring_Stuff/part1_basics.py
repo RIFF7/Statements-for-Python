@@ -187,3 +187,73 @@ len('My very energetic monster just scarfed nachos.')
 len('')
 #--------------------------------------------------------------------------------------------------------------
 
+# Fungsi str(), int(), and float()
+'''
+    Jika suatu saat kamu ingin menghubungkan variable
+    string dengan integer pada sebuag kalimat dengan 
+    menggunakan concatination (+) maka kamu dapat mengubah
+    variable tersebut sesuai dengan tipe datanya terlebih dahulu
+    
+    Jika tipe data tidak diubah maka akan terjadi error ketika
+    menggunakan concatination, example:
+'''
+
+print('I am  ' + 29 + ' years old.') # Code ini akan menghasilkan error, karena tipe data value tidak diubah
+
+str('26')
+
+print('I am ' + str(26) + ' years old.') # Code ini adalah yang sesuai, dimana value diubah terlebih dahulu tipe datanya
+
+str(0) # Dari int diubah menjadi string
+
+str(-3.14) # Dari float diubah menjadi string
+
+int('42') # Dari string diubah menjadi int
+
+int('-99') # Dari string diubah menjadi int
+
+int(1.25) # Dari float diubah dibulatkan menjadi int
+
+int(1.99) # Dari float diubah dibulatkan menjadi int
+
+float('3.14') # Dari string diubah menjadi float
+
+float(10) # Dari int diubah menjadi float
+
+# Contoh lainnya
+
+spam = input() # Setiap hasil input akan dibaca sebagai string (walaupun itu int)
+spam
+
+# Cara untuk mengatasi permasalah diatas adalah mengubah tipe data yang akan diinput, seperti dibawah ini:
+
+# Cara 1, mengubah tipe data dari variable
+spam = int(spam)
+spam
+
+# Cara 2, langsung ubah tipe data pada hasil input
+spam = int(input())
+spam
+
+spam * 10/5
+
+'''
+    Contoh dibawah ini akan menghasilkan error
+'''
+int('99.99') # Fungsi int hanya akan berguna untuk nilai bulat float pada nomor dibawahnya (Tidak bisa dengan string)
+
+int('twelve') # Karakter tulisan jelas tidak bisa dibuat menjadi int
+
+'''
+    Contoh yang benar, seperti dibawah ini
+'''
+int(7.7)
+
+int(7.7) + 1
+
+# PROGRAM
+print('What is your age?')
+myAge = input()
+print('You will be ' + str(int(myAge) + 1) + ' in a year.')
+
+#--------------------------------------------------------------------------------------------------------------
