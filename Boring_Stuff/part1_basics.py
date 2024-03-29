@@ -171,3 +171,19 @@ print('My Name is ' + myName)
 
 #--------------------------------------------------------------------------------------------------------------
 
+# Fungsi len() atau panjang dari karakter
+
+'''
+    Fungsi dari len() ini akan menghitung panjang
+    karakter dari hasil input atau arugument
+'''
+print('The length of your name is:')
+print(len(myName)) # Ini akan menghitung karakter input yang ada pada variable 'myName'
+
+len('hello')
+
+len('My very energetic monster just scarfed nachos.')
+
+len('')
+#--------------------------------------------------------------------------------------------------------------
+
